@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:weightSum="5">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/tViewNameD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tViewName"
+                android:textSize="18dp"
+                android:layout_weight="3"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/tViewAlamatD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tViewName"
+                android:textSize="18dp"
+                android:layout_weight="3"
+                android:text="Alamat" />
+
+            <TextView
+                android:id="@+id/tViewJamOpsD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tViewName"
+                android:textSize="18dp"
+                android:layout_weight="3"
+                android:text="Jam Operasional" />
+
+            <TextView
+                android:id="@+id/tViewHargaTiketD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tViewName"
+                android:textSize="18dp"
+                android:layout_weight="3"
+                android:text="Harga Tiket" />
+
+            <TextView
+                android:id="@+id/tViewContactPersonD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tViewName"
+                android:textSize="18dp"
+                android:layout_weight="3"
+                android:text="Contact Person" />
+
+            <TextView
+                android:id="@+id/tViewKotaD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:text="Kota"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tViewDeskripsiD"
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Deskripsi"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tViewKoorXD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koordinat X"
+                    android:textAlignment="center"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/tViewKoorYD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Koordinat Y"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMapsWisata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maps"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgDWisata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+             />
+    </LinearLayout>
+</RelativeLayout>

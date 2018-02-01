@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "589543691341",
+    "firebase_url": "https://wisatanya-89184.firebaseio.com",
+    "project_id": "wisatanya-89184",
+    "storage_bucket": "wisatanya-89184.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589543691341:android:6686a8d90f963796",
+        "android_client_info": {
+          "package_name": "com.wisata_nya.mei.wisata_nyamalangraya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589543691341-qf4kn1q99l0e3ob0390do3dd5leu704p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wisata_nya.mei.wisata_nyamalangraya",
+            "certificate_hash": "abc651337692eac1b9ff84553efb8db93832a93a"
+          }
+        },
+        {
+          "client_id": "589543691341-hohmu5rrn9ra8spni8dqtofki07emgp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5U_vG96w4QoaF3Od8nJ_UismMz-A4IQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589543691341-hohmu5rrn9ra8spni8dqtofki07emgp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

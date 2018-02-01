@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/back"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/della_respira"
+            android:hint="Deskripsi Aplikasi"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/editVers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/della_respira"
+            android:hint="Masukkan versi aplikasi Wisata_NYA"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnConfirmEditAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/della_respira"
+            android:text="Update About Us"
+            android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDeleteAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/della_respira"
+            android:padding="15dp"
+            android:text="Delete About Us"
+            android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

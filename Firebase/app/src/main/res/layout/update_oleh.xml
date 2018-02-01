@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editOlehNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/della_respira"
+            android:hint="Nama"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/editOlehHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/della_respira"
+            android:hint="Harga"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editOlehVarian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/della_respira"
+            android:hint="Variian"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/editOlehKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/della_respira"
+            android:hint="Keterangan"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnConfirmEditOleh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/della_respira"
+            android:text="Update Oleh"
+            android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDeleteOleh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/della_respira"
+            android:padding="15dp"
+            android:text="Delete Oleh"
+            android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

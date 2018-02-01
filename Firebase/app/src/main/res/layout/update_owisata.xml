@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/della_respira"
+            android:hint="Nama objek wisata"
+            android:textSize="15dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/della_respira"
+            android:hint="Alamat objek wisata"
+            android:textSize="15dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editJamOps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/della_respira"
+            android:hint="Jam Operasional objek wisata"
+            android:textSize="15dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editHargaTiket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/della_respira"
+            android:hint="Harga Tiket objek wisata"
+            android:textSize="15dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editContactPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/della_respira"
+            android:hint="Contact Person objek wisata"
+            android:textSize="15dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/della_respira"
+            android:hint="Masukkan deskripsi objek wisata"
+            android:textSize="15dp"
+            android:inputType="text" />
+
+
+        <Spinner
+            android:id="@+id/spinnerEditKota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/kota" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/editKoorX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koordinat X"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/editKoorY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koordinat Y"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnUploadPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/della_respira"
+                    android:text="Upload Photo"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnConfirmEditOWisata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/della_respira"
+                    android:text="Update Wisata"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:weightSum="4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDeleteOWisata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/della_respira"
+                    android:text="Delete Wisata"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"/>
+
+                <Button
+                    android:id="@+id/btnDetailOWisata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/della_respira"
+                    android:text="Detail Wisata"
+                    android:layout_weight="2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

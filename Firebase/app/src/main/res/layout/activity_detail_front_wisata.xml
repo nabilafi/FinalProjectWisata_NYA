@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/tViewNameDF"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tViewAlamatDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Alamat" />
+
+        <TextView
+            android:id="@+id/tViewJamOpsDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Jam Operasional" />
+
+        <TextView
+            android:id="@+id/tViewHargaTiketDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Harga Tiket" />
+
+        <TextView
+            android:id="@+id/tViewContactPersonDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Contact Person" />
+
+        <TextView
+            android:id="@+id/tViewKotaDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Kota"/>
+
+        <TextView
+            android:id="@+id/tViewDeskripsiDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Deskripsi"/>
+
+        <ImageView
+            android:id="@+id/imgDFWisata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/tViewKoorXD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koordinat X"
+                android:textAlignment="center"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tViewKoorYD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Koordinat Y"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMapsWisata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maps"/>
+
+    </LinearLayout>
+</RelativeLayout>

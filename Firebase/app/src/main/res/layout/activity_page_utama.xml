@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.wisata_nya.mei.wisata_nyamalangraya.PageUtama">
+
+    <Button
+        android:id="@+id/btnWisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/della_respira"
+        android:layout_marginBottom="10dp"
+        android:text="Wisata"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/della_respira"
+        android:text="About Us"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnKontak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/della_respira"
+        android:layout_marginBottom="10dp"
+        android:text="Kontak"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnOleh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/della_respira"
+        android:layout_marginBottom="10dp"
+        android:text="Oleh - Oleh"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnMaps"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/btnKontak"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:fontFamily="@font/della_respira"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:text="Maps"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold" />-->
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/della_respira"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
